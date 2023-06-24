@@ -2,6 +2,8 @@
 #define SORT_H
 
 #include <stdlib.h>
+#include <stdio.h>
+
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -28,5 +30,6 @@ void quickSort(int *array, int first, int last, int size);
 int lomuto_partition(int *array, int first, int last, int size);
 void swap(int *a, int *b);
 void shell_sort(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
 
 #endif
