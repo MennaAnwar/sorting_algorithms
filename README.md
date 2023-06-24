@@ -409,6 +409,7 @@ Write a function that sorts an array of integers in ascending order using the Co
 * You are allowed to use malloc and free for this task
 * You’re expected to print your counting array once it is set up (See example below)
 	* This array is of size k + 1 where k is the largest number in array
+   
 Write in the file 102-O, the big O notations of the time complexity of the Counting sort algorithm, with 1 notation per line:
 
 * in the best case
