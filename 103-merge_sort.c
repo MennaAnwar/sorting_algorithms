@@ -52,7 +52,7 @@ void merge_sort_helper(int *array, int *temp, int left, int right)
 
 	if (right - left < 2)
 		return;
-	
+
 	mid = (right + left) / 2;
 	merge_sort_helper(temp, array, left, mid);
 	merge_sort_helper(temp, array, mid, right);
@@ -76,7 +76,7 @@ void merge_sort(int *array, size_t size)
 
 	for (i = 0; i < (int)size; i++)
 		temp[i] = array[i];
-	
+
 	merge_sort_helper(array, temp, 0, size);
 	free(temp);
 }
