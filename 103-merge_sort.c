@@ -1,6 +1,6 @@
 #include "sort.h"
 
-/*
+/**
  * merge - merge function
  * @array: array to be sorted
  * @temp: temporary array
